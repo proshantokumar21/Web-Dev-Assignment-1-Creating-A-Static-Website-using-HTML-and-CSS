@@ -11,6 +11,10 @@
   font-style: normal;
 }
 
+body {
+    background-color: #F5F8FF;
+}
+
 header {
     background-image: url('../images/Hero-bg.png');
     background-size: cover;
@@ -70,11 +74,15 @@ nav > button {
     font-size: 16px;
 }
 
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 .see-action {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1140px;
     height: 328px;
     margin: 0 auto;
     padding: 20px;
@@ -116,7 +124,6 @@ nav > button {
 }
 
 .statistics {
-    width: 1140px;
     height: 306px;
     margin: 100px auto;
     background-color: rgba(78, 71, 255, 0.1);
@@ -161,3 +168,94 @@ nav > button {
     text-align: center;
     margin-top: 0;
 }
+
+.review {
+    height: 342px;
+    margin: 0;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.review > h2 {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.user-card {
+    width: 366.67px;
+    height: 243px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 24px;
+    gap: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.star {
+    background-image: url('../images/icon-star.png');
+    width: 119px;
+    height: 20px; 
+    background-size: 20px;
+    background-repeat: space;
+}
+
+.card-title {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1E1E1E;
+}
+
+.card-text {
+    font-weight: regular;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+.reviewer-details {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.reviewer-details > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.reviewer {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #757575;
+}
+
+.review-date {
+    font-weight: regular;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+
+
