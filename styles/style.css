@@ -8,7 +8,8 @@
 header {
     background-image: url('../images/Hero-bg.png');
     background-size: cover;
-    height: 698px;
+    height: 700px;
+    width: 1440px;
 }
 
 nav {
@@ -21,7 +22,7 @@ nav {
 }
 
 .logo > img {
-    width: 100px;
+    width: 150px;
     height: 50px;
 }
 
@@ -33,15 +34,23 @@ button {
     border-radius: 5px;
 }
 
+nav > button {
+    font-weight: bold;
+    font-size: 16px;
+    width: 132px;
+    height: 48px;
+}
+
 
 .hero-section {
-    width: 500px;
+    width: 900px;
     margin: 0 auto;
     margin-top: 158px;
 }
 
 .hero-section > h1 {
     font-weight: bold;
+    font-size: 65px;
     text-align: center;
     
 }
@@ -49,7 +58,54 @@ button {
 .hero-section > button {
     display: flex;
     margin: 0 auto;
-    height: 30px;
+    height: 48px;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.see-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.action-image > img {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+.action-description {
+    width: 517px;
+    height: 203px;
+    margin: 60px 0 60px 0 ;
+}
+
+.action-description > p {
+    font-weight: regular;
+    font-size: 24px;
+    color: #252432;
+    margin: 20px 0 20px 0;
+}
+
+.action-description > h2 {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+    margin: 0;
+}
+
+.action-description > button {
+    width: 230px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
 }
