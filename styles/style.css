@@ -1,3 +1,10 @@
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 header {
     background-image: url('../images/Hero-bg.png');
     background-size: cover;
@@ -24,4 +31,25 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+}
+
+
+.hero-section {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 158px;
+}
+
+.hero-section > h1 {
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.hero-section > button {
+    display: flex;
+    margin: 0 auto;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
 }
