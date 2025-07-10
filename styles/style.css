@@ -257,5 +257,47 @@ main {
     color: #b3b3b3;
 }
 
+.big-banner {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 150px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 250px;
+}
 
+.big-banner > h2 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.big-banner > p {
+    font-weight: regular;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.big-banner > button {
+    width: 195px;
+    height: 48px;
+    font-weight: medium;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.big-banner > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 48px;
+}
 
