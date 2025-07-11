@@ -30,27 +30,33 @@ nav {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logo > img {
-    width: 250px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 button {
     background-color: #4E47FF;
     color: white;
-    height: 80px;
+    height: 60px;
+    width: 132px;
     padding: 10px;
     border: none;
     border-radius: 5px;
 }
 
 nav > button {
+    display: block;
+    width: 180px;
+    height: 60px;
     font-weight: bold;
     font-size: 16px;
-    width: 132px;
-    height: 48px;
+    padding: 0;
 }
-
 
 .hero-section {
     width: 900px;
@@ -70,10 +76,18 @@ nav > button {
     margin: 0 auto;
     width: 180px;
     height: 60px;
-    align-items: center;
-    justify-content: center;
     font-weight: bold;
     font-size: 16px;
+    padding: 0;
+}
+
+button > a {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 main {
@@ -123,6 +137,7 @@ main {
     font-weight: bold;
     font-size: 16px;
     margin: 0;
+    padding: 0;
 }
 
 .statistics {
@@ -269,6 +284,7 @@ main {
     border-radius: 14px;
     margin: 0 auto;
     margin-top: 250px;
+    align-items: center;
 }
 
 .big-banner > h2 {
@@ -288,12 +304,13 @@ main {
 }
 
 .big-banner > button {
+    display: flex;
     width: 195px;
-    height: 48px;
+    height: 80px;
     font-weight: medium;
     font-size: 16px;
-    margin: 0 auto;
-    margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .big-banner > img {
@@ -392,4 +409,16 @@ footer {
 .footer-links > a {
     text-decoration: none;
     color: #8987A1;
+}
+
+button:hover {
+    background-color: #bbcb7b;
+    color: #000000;
+    transition-duration: 1000ms;
+    cursor: pointer;
+}
+
+button > a:hover {
+    color: #000000;
+    transition-duration: 1000ms;
 }
